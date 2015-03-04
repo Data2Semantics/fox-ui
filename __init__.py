@@ -73,5 +73,5 @@ def run_task(file_name):
 
 if __name__ == '__main__':
     app.secret_key = 'development'
-    app.debug = True
+    app.debug = False
     app.run()
